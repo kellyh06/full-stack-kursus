@@ -1,7 +1,16 @@
+function Hello() {
+  return (
+    <div>
+      <p>Hello World</p>
+    </div>
+  )
+}
+
 const App = () => {
   return (
     <div>
-      <p>Hello world</p>
+      <h1>Greetings</h1>
+      <Hello />
     </div>
   )
 }
